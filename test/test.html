@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+  coffeescript experiment
+</title>
+<script src="../bin/test.js"></script>
+</head>
+<body>
+  <div id="contains">
+    <video autoplay width="240" height="180"></video> <br/>
+    <button id="start_button">Start Camera</button>
+    <button id="stop_button">Stop Camera</button> <br/> <br/>
+    Gradient <br/>
+    <button id="start_canvas_button">Start Gradient</button>
+    <button id="stop_canvas_button">Stop Gradient</button>
+    <button id="sobel_snapshot">Gradient Snapshot</button> <br/>
+    <input type="range" max="255" min="0" value="0" id="grad_slider"> Gradient Threshold (Sobel)</input> <br/>
+    Chroma Key <br/>
+    <button id="start_chroma">Start Chroma Key</button> 
+    <button id="stop_chroma">Stop Chroma Key</button> <br/>
+    <input type="range" max="255" min="0" value="0" id="rslider"> Red</input> <br/>
+    <input type="range" max="255" min="0" value="0" id="gslider"> Green</input> <br/>
+    <input type="range" max="255" min="0" value="0" id="bslider"> Blue</input> <br/>
+    Canvas <br/>
+    <button id="start_direct">Start Canvas</button>
+    <button id="stop_direct">Stop Canvas</button> <br/>
+    <canvas height="480" width="640"></canvas>
+  </div>
+</body>
+</html>
